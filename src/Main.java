@@ -9,7 +9,7 @@ public class Main {
         System.out.println("This program will continue to run until you enter an odd number. It will calculate the sum of the numbers you entered that are both even and multiples of 4.");
 
         do {
-            System.out.print("Please enter the numbers: ");
+            System.out.print("Please enter the number: ");
             n = sc.nextInt();
             if (n % 2 == 0 && n % 4 == 0) { // Because 2 is evenly divisible by 2, but when divided by 4, the remainder is 2, not 0
                 sum += n;
